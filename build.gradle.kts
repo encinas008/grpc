@@ -43,9 +43,7 @@ dependencies {
     implementation("com.google.protobuf:protobuf-java:${protobufVersion}")
     implementation("com.google.protobuf:protobuf-java-util:${protobufVersion}")
     implementation("com.google.protobuf:protobuf-kotlin:${protobufVersion}")
-    testImplementation(kotlin("test-junit"))
-    testImplementation("io.grpc:grpc-testing:$grpcJavaVersion")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 }
 
 dependencyManagement {
